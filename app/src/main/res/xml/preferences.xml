@@ -1,0 +1,62 @@
+<!--
+    Copyright (C) 2014 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_preference_appearance"
+        app:key="appearance"
+        app:summary="@string/appearance_summary"
+        app:title="@string/appearance" />
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_preference_ui"
+        app:key="ui"
+        app:summary="@string/ui_summary"
+        app:title="@string/ui" />
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_preference_behavior"
+        app:key="behavior"
+        app:summary="@string/behavior_summary"
+        app:title="@string/behavior" />
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_preference_security"
+        app:key="security"
+        app:summary="@string/security_summary"
+        app:title="@string/security" />
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_preference_info"
+        app:key="about"
+        app:title="@string/about_amaze_file_manager_label" />
+    <Preference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:key="feedback"
+        app:title="@string/feedback" />
+
+</PreferenceScreen>
